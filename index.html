@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <h1>Wishlist for San_ta 🎅</h1>
+  <form action="confirm.html">
+    <label for="fname"> First name🎀</label><br>
+    <input type="text" name="fname" id="fname" placeholder="John"><br>
+
+    <label for="lname">Last name🎀</label><br>
+    <input type="text" name="lname" id="lname" placeholder="Doe"><br>
+
+    <label>Wis_hes 🎁</label><br>
+    <input type="text" name="wishes[]" id="wishes1" class="wishes_input"><br>
+    <input type="text" name="wishes[]" id="wishes2" class="wishes_input"><br>
+    <input type="text" name="wishes[]" id="wishes3" class="wishes_input"><br>
+    <input type="text" name="wishes[]" id="wishes4" class="wishes_input"><br>
+    <input type="text" name="wishes[]" id="wishes5" class="wishes_input"><br>
+    <input type="text" name="wishes[]" id="wishes6" class="wishes_input"><br>
+    <input type="text" name="wishes[]" id="wishes7" class="wishes_input"><br>
+    <input type="text" name="wishes[]" id="wishes8" class="wishes_input"><br>
+    <input type="text" name="wishes[]" id="wishes9" class="wishes_input"><br>
+    <input type="text" name="wishes[]" id="wishes10" class="wishes_input"><br>
+
+    <input type="submit" value="Send" id="submitBtn"><br>
+  </form>
+
+  <dialog id="d">
+    <p>Hello from Santa 🎅</p>
+    <button onclick="d.close()">Close Dialog</button>
+  </dialog>
+
+  <button id="openDialog">Open Dialog</button>
+
+  <script>
+    const d = document.getElementById('d');
+    const openDialogButton = document.getElementById('openDialog');
+    openDialogButton.addEventListener('click', () => {
+      d.showModal();
+    });
+  </script>
+
+</body>
+
+</html>
