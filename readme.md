@@ -15,7 +15,7 @@ Siden **HTML** og **CSS** var i fokus, og herav at vi bare skulle ha én form, h
 
 Tenkte først det ikke var nok å gjøre med bare én form, men oppdaget raskt hvor mye som kan gjøres med **CSS**, og lærte masse underveis.
 
-Vurderte å jukse litt med **Bootstrap**, slik vi ofte gjorde på Noroff, men fant ut at det var gøyere å se hva jeg kunne få til med kun HTML og CSS.
+Vurderte å jukse litt med **Bootstrap**, slik vi ofte gjorde på Noroff, men fant ut at det var gøyere å se hva jeg kunne få til med kun **HTML** og **CSS**.
 
 ---
 
