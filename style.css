@@ -29,10 +29,18 @@ body {
     border: 8px solid;
     border-image: repeating-linear-gradient(45deg, red, red 10px, white 10px, white 20px);
     border-image-slice: 7;
-    margin: 40px 180px 40px 180px;
+    margin: 40px 180px; /* Default margins for desktop */
     padding-bottom: 20px;
-    position: relative;   
+    position: relative;
 }
+
+/* Better margins for mobile users */ 
+@media (max-width: 768px) {
+    body {
+        margin: 20px;
+    }
+}
+
 
 #fname, #lname, .wishes_input {
     /* This helped box shadow get ontop of title containers */
